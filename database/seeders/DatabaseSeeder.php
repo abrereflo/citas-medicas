@@ -32,7 +32,6 @@ class DatabaseSeeder extends Seeder
             'email' => 'patients@gmail.com',
             'email_verified_at' => now(),
             'password' => bcrypt('12345678'),
-
             'role' => 'patient'
         ]);
         //DoctorController
@@ -41,7 +40,6 @@ class DatabaseSeeder extends Seeder
             'email' => 'doctor@gmail.com',
             'email_verified_at' => now(),
             'password' => bcrypt('12345678'),
-
             'role' => 'doctor'
         ]);
 
